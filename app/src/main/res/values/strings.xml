@@ -1,0 +1,27 @@
+<resources>
+    <!-- man hinh chinh-->
+    <string name="app_name">HOTROVN</string>
+    <string name="str_lantoa">Lan toả niềm tin</string>
+    <string name="str_tieudequyen">Thông báo cấp quyền</string>
+    <string name="str_tbaoquyen">Ứng dụng cần cấp quyền để sử dụng</string>
+    <string name="str_quantam">Bạn đang quan tâm</string>
+    <string name="str_cancuutro">Cần Cứu Trợ</string>
+    <string name="str_mtq">Mạnh Thường Quân</string>
+    <string name="str_nhapsdt">Nhập số điện thoại</string>
+    <string name="str_tiep">Tiếp theo</string>
+    <string name="str_bangtin">BẢNG TIN CỨU TRỢ</string>
+    <string name="str_taobangtin">Tạo bản tin cứu trợ</string>
+    <string name="str_chontinh">Chọn tỉnh</string>
+    <string name="str_chontp">Chọn thành phố</string>
+    <string name="str_chonhuyen">Quận/Huyện/Xã</string>
+    <string name="str_ngkeugoi">Người kêu gọi</string>
+    <string name="str_vaitro">Vai trò</string>
+    <string name="str_dthoai">Điện thoại</string>
+    <string name="str_motathinh">Mô tả tình hình</string>
+    <string name="str_hotrogi">Cần hỗ trợ gì</string>
+    <string name="str_themanh">Thêm anh tình hình</string>
+    <string name="str_luu">Lưu</string>
+    <string name="str_gtoset"> Go to settings</string>
+    <string name="str_ok">Ok</string>
+    <string name="str_Cancel">Cancel</string>
+</resources>

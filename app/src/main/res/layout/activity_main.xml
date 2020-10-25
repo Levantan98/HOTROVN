@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/mchudao"
+                android:textSize="@dimen/_40sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center_horizontal"
+                android:text="@string/str_lantoa"
+                android:textColor="@color/mcam"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/str_quantam"
+                android:textSize="@dimen/_22sdp" />
+
+            <Button
+                android:id="@+id/btn_cuutro"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/custom_button_pie"
+                android:text="@string/str_cancuutro"
+                android:textColor="@color/mtrang"
+                android:textSize="@dimen/_24sdp" />
+
+            <Button
+                android:id="@+id/btn_mtq"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/custom_button_pie"
+                android:text="@string/str_mtq"
+                android:textColor="@color/mtrang"
+                android:textSize="@dimen/_24sdp" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img_backMain"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back_ios" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:hint="@string/str_nhapsdt"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textSize="@dimen/_19sdp" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:src="@drawable/ic_building"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/_15sdp" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:spinnerMode="dialog"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:background="@drawable/custom_button_pie"
+                android:text="@string/str_tiep"
+                android:textColor="@color/mtrang"
+                android:textSize="@dimen/_24sdp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>
